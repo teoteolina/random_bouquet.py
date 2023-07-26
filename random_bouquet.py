@@ -1,5 +1,7 @@
 import random
 
+
+
 # список возможных цветов
 flowers = ["роза", "орхидея", "тюльпан", "ирис", "нарцисс", "гвоздика", "пион", "лилия", "сирень"]
 
@@ -13,3 +15,4 @@ bouquet = random.sample(flowers, num_flowers)
 print("Ваш букет состоит из следующих цветов:")
 for flower in bouquet:
     print(flower)
+
